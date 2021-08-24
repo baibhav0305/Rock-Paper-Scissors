@@ -2,7 +2,7 @@
 let userBtn = document.querySelectorAll("button");
 let startBtn = document.getElementById("startBtn");
 
-let choice = ["Rock", "Paper", "Scissors"];
+let choice = ["rock", "paper", "scissors"];
 
 let result = document.getElementById("res");
 
