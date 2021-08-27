@@ -99,11 +99,18 @@ body {
 }
 #startBtn:hover {
   cursor: pointer;
-  background-color: rgba(117, 223, 209, 0.658);
+  background-color: rgba(184, 184, 184, 0.979);
+  width: 11rem;
+  height: 70px;
 }
 
 .credit {
   margin-top: 30px;
+}
+.credit:hover {
+  cursor: pointer;
+  font-weight: bolder;
+  color: rgba(221, 36, 36, 0.884);
 }
 
 @media screen and (max-width: 830px) {
@@ -136,7 +143,14 @@ body {
     padding: 5px;
     height: 50px;
   }
+  #startBtn:hover{
+    height: 56px;
+  }
   .credit {
     margin-top: 20px;
+  }
+  .computer img {
+    height: 40px;
+    width: 40px;
   }
 }
